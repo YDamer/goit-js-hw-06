@@ -13,7 +13,7 @@ const handleSubmit = (event) => {
     } = event.currentTarget;
     
 if (email.value === "" || password.value === "") {
-return alert("Вы ничего не ввели. Введите даные и можете загадать желание :)");
+return alert("Пожалуйста, заполните поле");
 }
     const objForm = {
         email: email.value,

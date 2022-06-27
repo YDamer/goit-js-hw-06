@@ -8,7 +8,6 @@ const outputElement = document.querySelector('#name-output');
 const inputHandle = () => {
     if (inputElement.value.length > 0) {
         outputElement.textContent = inputElement.value;
-        // return;
     } else {
         outputElement.textContent = 'Anonymous';
     }
